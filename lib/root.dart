@@ -27,12 +27,12 @@ class _RootState extends State<Root> {
     return Scaffold(
         bottomNavigationBar: BottomAppBar(
             child: Stack(children: [
-          const Align(
-              alignment: Alignment.bottomCenter,
-              child: Text(
-                "订单：联600定金-待交付-m24111202",
-                style: TextStyle(color: Colors.grey),
-              )),
+          // const Align(
+          //     alignment: Alignment.bottomCenter,
+          //     child: Text(
+          //       "订单：联600定金-待交付-m24111202",
+          //       style: TextStyle(color: Colors.grey),
+          //     )),
           Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
             IconButton(
                 onPressed: () {
